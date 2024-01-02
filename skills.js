@@ -11,3 +11,7 @@ function getAverage(numbers) {
     return sumofNumbers(numbers) / numbers.length;
 }
 
+//create a function that takes an array of numbers and returns the average of all the numbers
+function average(numbers) {
+    return getAverage(numbers);
+}
